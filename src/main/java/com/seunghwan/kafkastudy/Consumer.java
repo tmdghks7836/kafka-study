@@ -17,7 +17,7 @@ public class Consumer {
         Properties configs = new Properties();
 
         configs.put("bootstrap.servers", "localhost:9092");
-        configs.put("group.id", "click_log_group");
+        configs.put("group.id", "test");
         configs.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         configs.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 
